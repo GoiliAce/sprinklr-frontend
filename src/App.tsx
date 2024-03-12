@@ -1,8 +1,8 @@
 import { ElementType, Fragment } from 'react'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
-import { createTheme, ThemeProvider, styled } from '@mui/material/styles';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 import routes from './routes'
-const darkTheme = createTheme({ palette: { mode: 'dark' } })
+// const darkTheme = createTheme({ palette: { mode: 'dark' } })
 const lightTheme = createTheme({ palette: { mode: 'light' } })
 function App() {
   return (
